@@ -1,0 +1,12 @@
+---
+title: "arrange dir system"
+output: html_document
+---
+
+### **Working directory set up**
+ *The wizard will guide you through the process to set up working directories for the Gap analysis.*
+ ***
+1. Write the Crop name in the Crop name field.
+2. Click the button **"choose Dir"** and search the destination folder in which the directory structure will be created.
+3. Finally, click on **"Create dirs button"**, this will create all necessary folder to store inputs, results, etc...
+

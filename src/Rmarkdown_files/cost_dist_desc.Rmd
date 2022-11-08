@@ -1,0 +1,15 @@
+---
+title: "cost_dist_description"
+output: html_document
+---
+
+### **Calculate cost distance raster**
+
+***
+
+This function creates two files:
+
+1. __Shapefile of occurrence:__ it is a spatial format for the latitude and longitude of each accession in the database, it can be found in *results/"crop\_name"/"region\_name"/"race\_name"/occurrences/ Occ.shp*
+2. __Cost distance raster:__ It is a raster file where each pixel is computed from the friction surface and the occurrence shapefile created before,  
+as the cost of movement from each pixel in the friction raster to the nearest occurrence. The output file is saved in *results/"crop\_name"/"region\_name"/"race\_name"/gap\_scores/resources/cost_dist.tif*
+
